@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFightLib", "DragonFightLib\DragonFightLib.csproj", "{986BD2F6-03C7-48AC-B9F2-440012F5E029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFightConsoleApp", "DragonFightConsoleApp\DragonFightConsoleApp.csproj", "{29312082-4ABE-455B-BFD7-7F46D081E97B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{986BD2F6-03C7-48AC-B9F2-440012F5E029} = {986BD2F6-03C7-48AC-B9F2-440012F5E029}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{986BD2F6-03C7-48AC-B9F2-440012F5E029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986BD2F6-03C7-48AC-B9F2-440012F5E029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986BD2F6-03C7-48AC-B9F2-440012F5E029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986BD2F6-03C7-48AC-B9F2-440012F5E029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29312082-4ABE-455B-BFD7-7F46D081E97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29312082-4ABE-455B-BFD7-7F46D081E97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29312082-4ABE-455B-BFD7-7F46D081E97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29312082-4ABE-455B-BFD7-7F46D081E97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {900D848C-3AA4-4180-913C-435B86628007}
+	EndGlobalSection
+EndGlobal
